@@ -19,6 +19,12 @@ const commandFolders = fs.readdirSync("./src/commands");
     client.login(process.env.token)
 })();
 
+client.on('guildMemberAdd', member => {
+    console.log('User @' + member.user.tag + ' has joined the server!');
+    var role = member.guild.roles.cache.find(role => role.name == “member")
+    await member.roles.add(role);
+});
+
 //Mod Log System
 //client.on(Events.MessageDelete, async message => {
 
