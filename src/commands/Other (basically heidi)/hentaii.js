@@ -4,7 +4,7 @@ const fetch = (...args) => import('node-fetch').then(({ default: fetch }) => fet
 
 module.exports = {
     data: new SlashCommandBuilder()
-        .setName("hentaiiiii")
+        .setName("hentai")
         .setDescription("If you run this command you down bad asf")
         .addStringOption(option =>
             option.setName("platform")
