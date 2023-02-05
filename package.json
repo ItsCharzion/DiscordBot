@@ -19,11 +19,8 @@
     "fs": "^0.0.1-security",
     "got": "^12.5.3",
     "mathsteps": "^0.2.0",
-<<<<<<< HEAD
     "node-fetch": "^3.3.0",
-=======
-    "discord.js": "^14.5.0",
->>>>>>> 0011f3774f265ffa45866ef162642eb87cb0db87
+    "openai": "^3.1.0",
     "request": "^2.88.2",
     "request-promise": "^4.2.6"
   }
